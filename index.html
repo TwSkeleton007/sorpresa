@@ -18,8 +18,8 @@
 
     padding: 0;
    
-    background-image: url(FONDOSTITCH.jpg);
-    background-size: 800px 600px;
+    background-image: url(FONDOFNAF.jpg);
+    background-size: 1920px 1200px;
 
 
     font-family:'Segoe UI', sans-serif;
@@ -38,7 +38,7 @@
 
 .container{
 
-background: rgb(137, 180, 230);
+background: rgb(169, 60, 202);
 
 padding: 2rem;
 
@@ -56,7 +56,7 @@ transition: all 0.3s ease;
 
 h1{
 
-    color: #c2185b;
+    color: #ffffff;
 
     margin-bottom: 1rem;
 
@@ -74,7 +74,7 @@ h1{
 
 button{
 
-    background:linear-gradient(to right, #eb5a8a, #a99ba0);
+    background:linear-gradient(to right, #1597b8, #05eb93);
 
     border: none;
 
@@ -106,7 +106,7 @@ button:hover{
 
     margin-top: 20px;
 
-    color:#6a1b9a; ;
+    color:#ffffff; ;
 
     font-size: 1.1rem;
 
@@ -116,7 +116,7 @@ button:hover{
 
 .ticket{
 
-background: #fff3f6;
+background: #8011c0;
 
 padding: 2rem;
 
@@ -146,7 +146,7 @@ display: none;
 
     margin: 0.5rem 0;
 
-    color:  #6a1b9a;
+    color:  #e6e6e6;
 
 }
 
@@ -174,13 +174,13 @@ display: none;
 
 <div class="container" id="declaracion">
 
-<h1> ¿Te gustaría ir al cine a ver el live action de Stitch?</h1>
+<h1> ¿Te gustaría ser mi San Valentin?</h1>
 
 <div class="button"> 
 
-   <button onclick="Si()">Si ❤️</button>
+   <button onclick="Si()">Sii ❤️</button>
 
-   <button onclick="No()">No 😢</button>
+   <button onclick="No()">Convenceme 👀</button>
 
 </div> 
 
@@ -192,16 +192,16 @@ display: none;
 
 <div class="ticket" id="ticket">
 
-<h1> 🎟 Cita Confirmada 🎟</h1>
+<h1> 🎟 Plansito Confirmado en proceso 🎟</h1>
 
-<p>¡Preparate para ver una de las mejores peliculas! 🍿🎬</p>
+<p>Preparate para un bonito día de San Valentín, toma una flor tejida</p>
 
-<p><strong>Lugar :</strong> Cine</p>
-<p><strong>Fecha :</strong> Antes de quincena de Junio</p>
+<p><strong>Lugar :</strong> Sorpresa</p>
+<p><strong>Fecha :</strong> 14 de Febrero</p>
 
 <p><strong>Hora :</strong> Por definir</p>
 
-<p><strong>Yo invito ❤️ </strong> </p>
+<p><strong>Yo pasaré por ti </strong> </p>
 
 </div>   
 
@@ -237,21 +237,26 @@ contador++;
 
  const respuestas=[
 
- "Por que no? 🥺",
+ "Con un chocolate, puede ser? 🍫",
 
- "Osuuu, no seas asi ps 🥺",
+ "Con un chocolate, puede ser? 🍫",
 
- "Eres mala",
+ "Un chocolate y un milkshake? 🥤",
 
- "Piensalo bien, estas segura de que no quieres ir? 😢",
+ "Ta díficil ehh... 😅",
 
- "Dale que si, yo se que quieres"
+ "Nueva ofera, un postrecito que elijas 🍰",
+
+ "Con que más te puedo convencer? 🤔",
+
+ "Soy hombre, ya pensé demasiado 😓",
 
  ];
 
 
 
- mensaje.textContent= respuestas[Math.min(contador,respuestas.length -1)];
+ mensaje.textContent= respuestas[Math.min(contador,respuestas.length -1
+ )];
 
 }
 
